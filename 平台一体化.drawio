@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T11:36:09.406Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="eHs3xpJ-YiaczE87Uyt8" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T11:41:51.918Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="nTgp0P23-fJ5zoc7t3I6" version="22.1.8" type="github">
   <diagram name="第 1 页" id="mHcLw0jtPNpkXe79qysJ">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -348,11 +348,23 @@
         <mxCell id="T6jvn6gkHNNJQDIH5uNn-94" value="auth&lt;br&gt;鉴权认证中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="T6jvn6gkHNNJQDIH5uNn-119">
           <mxGeometry x="324" y="25" width="120" height="60" as="geometry" />
         </mxCell>
-        <object label="system&lt;br&gt;系统管理" id="T6jvn6gkHNNJQDIH5uNn-95">
+        <object label="system&lt;br&gt;系统管理&lt;br&gt;&lt;font color=&quot;#fa0000&quot;&gt;共同用户体系&lt;/font&gt;" id="T6jvn6gkHNNJQDIH5uNn-95">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="T6jvn6gkHNNJQDIH5uNn-119">
             <mxGeometry x="514" y="25" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="T6jvn6gkHNNJQDIH5uNn-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="T6jvn6gkHNNJQDIH5uNn-120" target="T6jvn6gkHNNJQDIH5uNn-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T6jvn6gkHNNJQDIH5uNn-120" value="&lt;h1&gt;统一认证登录&lt;/h1&gt;&lt;p&gt;采用&lt;font color=&quot;#ff0000&quot;&gt;单点登录&lt;/font&gt;的方式集成各子系统。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="319" y="1574" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="T6jvn6gkHNNJQDIH5uNn-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="T6jvn6gkHNNJQDIH5uNn-121" target="T6jvn6gkHNNJQDIH5uNn-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T6jvn6gkHNNJQDIH5uNn-121" value="&lt;h1&gt;统一用户体系&lt;/h1&gt;&lt;p&gt;平台内各子系统&lt;font color=&quot;#ff0000&quot;&gt;共用同一套&lt;/font&gt;用户体系。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="509" y="1664" width="190" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
